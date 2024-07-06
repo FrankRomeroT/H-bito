@@ -1,0 +1,12 @@
+Clasificación Multiclase:
+La clasificación multiclase es un problema en el que la tarea es clasificar las entradas en una de tres o más clases. Se utilizan funciones de activación como softmax en la capa de salida y una función de pérdida como la categorical_crossentropy.
+
+Características:
+- Tarea: Clasificar las entradas en una de tres o más clases.
+- Función de activación en la capa de salida: softmax.
+- Función de pérdida: categorical_crossentropy.
+
+Ejemplos de Problemas de Clasificación Multiclase:
+- Reconocimiento de Dígitos: Clasificar imágenes de dígitos escritos a mano (0-9).
+- Clasificación de Imágenes: Identificar objetos en imágenes (gato, perro, coche, etc.).
+- Análisis de Temas: Clasificar documentos en diferentes categorías temáticas.

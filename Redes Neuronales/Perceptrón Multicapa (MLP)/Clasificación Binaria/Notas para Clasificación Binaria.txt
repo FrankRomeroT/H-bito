@@ -1,0 +1,12 @@
+Clasificación Binaria:
+La clasificación binaria es un tipo de problema en el que la tarea es clasificar las entradas en una de dos clases. Este tipo de problema se resuelve utilizando funciones de activación como la sigmoid en la capa de salida y una función de pérdida como la binary_crossentropy.
+
+Características:
+- Tarea: Clasificar las entradas en una de dos clases.
+- Función de activación en la capa de salida: sigmoid.
+- Función de pérdida: binary_crossentropy.
+
+Ejemplos de Problemas de Clasificación Binaria:
+- Detección de Spam: Clasificar correos electrónicos como spam o no spam.
+- Diagnóstico Médico: Determinar si una condición médica está presente o no.
+- Análisis de Sentimiento: Clasificar opiniones como positivas o negativas.

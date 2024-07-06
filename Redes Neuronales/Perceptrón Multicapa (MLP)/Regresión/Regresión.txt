@@ -1,0 +1,12 @@
+Regresión:
+La regresión es un problema en el que la tarea es predecir un valor numérico continuo. Para estos problemas, se pueden utilizar funciones de activación linear en la capa de salida y una función de pérdida como el mean_squared_error.
+
+Características:
+- Tarea: Predecir un valor numérico continuo.
+- Función de activación en la capa de salida: linear.
+- Función de pérdida: mean_squared_error.
+
+Ejemplos de Problemas de Regresión:
+- Predicción de Precios: Predecir el precio de casas, coches, etc.
+- Pronóstico del Tiempo: Predecir temperaturas futuras.
+- Análisis Financiero: Predecir el valor de acciones en el mercado.
