@@ -1,5 +1,9 @@
 Regresión:
-La regresión es un problema en el que la tarea es predecir un valor numérico continuo. Para estos problemas, se pueden utilizar funciones de activación linear en la capa de salida y una función de pérdida como el mean_squared_error.
+La regresión es un problema en el que la tarea es predecir un valor numérico continuo. Para estos problemas, se pueden utilizar funciones de activación lineal en la capa de salida y una función de pérdida como el mean_squared_error. Además, se debe usar el MAE (Mean Absolute Error), porque mide el promedio de cuán lejos están las predicciones de los valores reales.
+
+# Compilar el modelo con la métrica adecuada para regresión
+
+modelo.compile(optimizer=tf.keras.optimizers.Adam(0.01), loss='mean_squared_error', metrics=['mae'])
 
 Características:
 - Tarea: Predecir un valor numérico continuo.

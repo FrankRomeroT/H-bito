@@ -1,5 +1,9 @@
 Clasificación Binaria:
-La clasificación binaria es un tipo de problema en el que la tarea es clasificar las entradas en una de dos clases. Este tipo de problema se resuelve utilizando funciones de activación como la sigmoid en la capa de salida y una función de pérdida como la binary_crossentropy.
+La clasificación binaria es un tipo de problema en el que la tarea es clasificar las entradas en una de dos clases. Este tipo de problema se resuelve utilizando funciones de activación como la sigmoid en la capa de salida y una función de pérdida como la *binary_crossentropy*. Además, se debe usar la métrica *accuracy*, que mide el porcentaje de predicciones correctas entre el total de predicciones realizadas.
+
+Compilar el modelo con la métrica adecuada para clasificación binaria:
+
+	modelo.compile(optimizer=tf.keras.optimizers.Adam(0.01), loss='binary_crossentropy', metrics=['accuracy'])
 
 Características:
 - Tarea: Clasificar las entradas en una de dos clases.
